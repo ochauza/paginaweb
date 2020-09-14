@@ -1,0 +1,166 @@
+#principal{
+    padding: 0;
+    width: 90%;
+    border: 2px;
+    margin: auto;
+    align-content: center;
+    max-width: 90%;
+    display: flex;
+}
+body{
+    background-color: cornflowerblue;
+}
+#principal img{
+    width: 50%;
+    float: left;
+    margin-right: 50px;
+    height: 500px;
+}
+#principal p{
+    margin-top: -5px;
+    width: 50%;
+    text-align: justify;
+    font-size: 2em;
+}
+#proyectos{
+    padding: 0;
+    margin: 4em;
+    align-items: left;
+    font-size: 2em;
+    background-color: darkcyan;
+    margin-top: -1em;
+}
+#proyectos ul li{
+    padding: 5px;
+    text-align: justify;
+}
+#container{
+    margin: auto;
+    position: relative;
+    
+}
+#pasatiempos{
+    background-color:cadetblue;
+}
+#container #pasatiempo{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#container #pasatiempo li{
+    list-style: none;
+    margin-bottom: 2em;
+    margin-right: 4em;
+    font-size: larger;
+}
+#container #pasatiempo li img{
+    width: 500px;
+    height: 500px;
+    margin-left: 2em;
+    justify-content: center;
+    
+}
+#index{
+    background-color: cornflowerblue;
+}
+#estudios{
+    width: 90%;
+    height: 90%;
+    border: 2px;
+    margin: 3em; 
+}
+#perfil_academico{
+    background-color: cadetblue;
+}
+#perfil{
+    margin-right: 4em;
+    margin-left: 4em;
+    background-color: cornflowerblue;
+    border:black 2px solid;
+}
+#perfil h1{
+    font-size: 4em;
+}
+h1{
+    text-align: center;
+    padding: 0;
+    font-size: 2em;
+}
+#tabla{
+    margin:0 auto;
+    align-items: center;
+    align-content: center;
+    font-size: 2em ;
+}
+p{
+    text-align: center;  
+}
+#formulario{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-size: 2em;
+}
+a{
+    color: white;
+    font-size: 2em;
+}
+#enlaces{
+    list-style: none;
+    padding: 0;
+    margin:auto;
+    background-color: darkcyan;
+    width: 90%;
+}
+#enlaces li {
+    display: inline-block;
+    text-align: center;
+}
+#enlaces li a{
+    text-decoration:none;
+    padding: 20px;
+    display: block;
+}
+#enlaces li a:hover{
+    background:darkblue;
+}
+#formulario{
+    padding: 0%;
+    margin: auto;
+    background-color: darkcyan;
+    margin-left: 4em;
+    margin-right: 4em;
+    align-content: center;
+    justify-content: center;
+}
+#formulario input{
+    width: 20%;
+    height: 2em;
+    font-size: medium;
+    align-content: center;
+    justify-content: center;
+    background-color:gainsboro;
+}
+#formulario p #boton{
+    background-color:darkblue;
+    font-size: large;
+    width: 5em;
+}
+#intereses iframe{
+    padding-top: 5px;
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    display: block;
+    padding: 1em;
+    align-content: center;
+    border:none;
+}
+#intereses{
+    color: white;
+    font-size: 1em;
+    background-color: teal;
+    margin-left: 8em;
+    margin-right: 8em;
+}
+
